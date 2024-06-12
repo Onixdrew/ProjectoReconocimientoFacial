@@ -52,7 +52,7 @@ const Login = () => {
                                     <Link to="/Administrativo">Administrativo</Link>
                                     <Link to="/HomeVigilante">Vigilante</Link>
                                     <Link to="/Instructor">Instructor</Link>
-                                    <Link to="/Aprendiz">Aprendiz</Link>
+                                    <Link to="/inicioAprendiz">Aprendiz</Link>
 
                                     {/* Prueba Paladinez */}
                                     <Link to="/usuarios">Usuario</Link>

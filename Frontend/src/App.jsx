@@ -19,6 +19,11 @@ import Register from './pages/Register';
 
 /// Rol Aprendiz
 
+import Inicio_Aprendiz from "./pages/Interfaces/Aprendiz/pagesAprendiz/inicio_aprendiz";
+import Objetos_Aprendiz from "./pages/Interfaces/Aprendiz/pagesAprendiz/objetos_aprendiz";
+import Historial_Aprendiz from "./pages/Interfaces/Aprendiz/pagesAprendiz/historial_aprendiz";
+
+
 function App() {
 
   const AppRoutes = () => {
@@ -32,13 +37,16 @@ function App() {
 
       // Rutas Vigilante
 
-      { path: "/HomeVigilante", element: <HomeVigilante/> },
+      // { path: "/HomeVigilante", element: <HomeVigilante/> },
 
       // Rutas Administrativo
 
       // Rutas Instructor
 
       // Rutas Aprendiz
+      {path: "/inicioAprendiz", element: <Inicio_Aprendiz />},
+      {path: "/objetosAprendiz", element: <Objetos_Aprendiz />},
+      {path: "/historialAprendiz", element: <Historial_Aprendiz />},
 
     ]);
     return routes;
