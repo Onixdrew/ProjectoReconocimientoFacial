@@ -9,13 +9,13 @@ const Inicio_Aprendiz = () => {
       <div>
         <Navbarla />
 
-        <div className="flex flex-col lg:flex-row justify-center items-start mt-10 lg:mt-[10vh] flex-wrap px-4 space-y-5 lg:space-y-0 lg:space-x-10">
+        <div className="flex flex-col  lg:flex-row justify-center items-start mt-[15vh] lg:mt-[20vh] sm:mt-[17vh]  min-mt-10 md:mt-[20vh] flex-wrap px-4 space-y-5 lg:space-y-0 lg:space-x-10">
           <div className="flex-shrink-0">
             <CarnetAprendiz />
           </div>
 
           <div className="mt-5 lg:mt-0 lg:ml-10 lg:w-1/2">
-            <h1 className="text-xl font-semibold text-center lg:text-left">Novedades</h1>
+            <h1 className="text-xl font-semibold text-center text-center ">Novedades</h1>
             <p className="mt-3 text-justify">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, et,
               ad nemo esse consequuntur officiis delectus repellendus qui

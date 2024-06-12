@@ -3,14 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import Icono_Perfil from "../components/icono_Perfil";
+import Navbarla from "../components/navbar";
 
 const Historial_Aprendiz = () => {
   return (
     <div>
-        <div className="ml-5 fixed mt-[2.5vh]">
-          <Sidebar2></Sidebar2>
-        </div>
-
+        <Navbarla></Navbarla>
        <div className=" ml-[22%]  w-[77vw]">
             <Icono_Perfil></Icono_Perfil>
 

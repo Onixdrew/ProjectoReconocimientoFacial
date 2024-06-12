@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <>
         <footer class="  text-center bg-cyan-900 dark:bg-gray-900 mt-[17vh]">
-            <div class="mx-auto w-full max-w-screen-xl">
+            <div class="mx-auto w-full max-w-screen-xl ">
                 <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-                <div>
+                <div className='text-white'>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
