@@ -88,7 +88,7 @@ const Objetos_Aprendiz = () => {
         </div>
 
         <div className="  ml-[10vw] w-[50vw] rounded-lg rounded-t-3xl rounded-b-3xl mt-[10vh]  bg-[url('../../../../../public/imagesAprendiz/espacio-trabajo-tecnologia-d-isometrica.avif')] "> 
-          <FormObjetos className=''></FormObjetos>
+          <FormObjetos></FormObjetos>
         </div>
 
         <Footer></Footer>

@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import Sidebar2 from "../components/Sidebar/sideBar2";
+
 import Icono_Perfil from "../components/icono_Perfil";
 
 const Historial_Aprendiz = () => {
